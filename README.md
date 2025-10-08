@@ -38,16 +38,10 @@ FluxTide is a universal humanoid robot controller framework that combines parall
 
 ## 快速开始 | Quick Start
 
-### 安装依赖 | Install Dependencies
-
-```bash
-git clone https://github.com/DataFlux-Robot/FluxTide.git
-cd FluxTide
-pip install -r requirements.txt
 运行控制器 | Run Controller
-bash
-复制
+```bash
 python alone_python_dial_mpc_main.py
+```
 技术背景 | Technical Background
 DIAL-MPC (Diffusion-Inspired Annealing for Legged MPC) 是一种针对腿足机器人全阶扭矩级控制的采样式 MPC 框架。FluxTide 在此基础上进行重构,使其能够更好地应用于人形机器人控制场景。
 

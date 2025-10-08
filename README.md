@@ -36,6 +36,8 @@ FluxTide is a universal humanoid robot controller framework that combines parall
 
 3. **交互优化 | Interaction Optimization**: 新增可视化配置界面,简化任务设置流程 | New visualization interface simplifies task configuration workflow
 
+---
+
 ## 快速开始 | Quick Start
 
 运行控制器 | Run Controller
@@ -46,11 +48,11 @@ python alone_python_dial_mpc_main.py
 DIAL-MPC (Diffusion-Inspired Annealing for Legged MPC) 是一种针对腿足机器人全阶扭矩级控制的采样式 MPC 框架。FluxTide 在此基础上进行重构,使其能够更好地应用于人形机器人控制场景。
 
 DIAL-MPC (Diffusion-Inspired Annealing for Legged MPC) is a sampling-based MPC framework for full-order torque-level control of legged robots. FluxTide refactors this approach to better suit humanoid robot control scenarios.
-
-特别感谢 | Special Thanks
+---
+## 特别感谢 | Special Thanks
 感谢 dial-mpc 项目团队提供的优秀基础工作。
 
 Thanks to the dial-mpc project team for their excellent foundational work.
-
-贡献指南 | Contributing
+---
+## 贡献指南 | Contributing
 欢迎提交 Issue 和 Pull Request! | Issues and Pull Requests are welcome!
